@@ -1,0 +1,47 @@
+body {
+    
+    background-color: rgb(252, 239, 239);
+    opacity: .90;
+}
+.jumbotron {
+    background-image: url(../images/background8.jpg);
+
+}
+
+h2 {
+font-size: 60px;
+color: rgb(12, 11, 11);
+font-weight: bolder;
+margin-left: 20px;
+text-align: center;
+
+
+}
+
+h3 {
+    font-size: 45px;
+    color: rgb(20, 18, 18);
+    font-weight: bolder;
+    margin-left: 20px;
+    text-align: center;
+    
+    
+    }
+
+    #titles{
+        background-color: rgb(252, 239, 239);
+        opacity: .90;
+        padding: 100 120 120 120;
+    }
+#buttons-view {
+
+    color: rgb(47, 47, 121);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+#breed-form {
+    margin-left: 20px;
+    text-align: center;
+}
