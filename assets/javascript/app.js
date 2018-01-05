@@ -48,7 +48,7 @@
             // Appending the image
             breedDiv.append(image);
     
-            // Putting the entire breed above the previous breeds
+            // Putting the entire breed above the previous 
             $("#breeds-view").prepend(breedDiv);
           }
         });
