@@ -32,8 +32,7 @@
             // Creating an element to have the rating displayed
             var pOne = $("<p>").text("Rating: " + rating);
 
-            // Displaying the rating
-            breedDiv.append(pOne);
+          
 
       
             var stillURL = results[i].images.fixed_height_small_still.url;
@@ -47,6 +46,9 @@
             image.addClass('giphy');
             // Appending the image
             breedDiv.append(image);
+
+              // Displaying the rating
+              breedDiv.append(pOne);
     
             // Putting the entire breed above the previous 
             $("#breeds-view").prepend(breedDiv);
