@@ -8,7 +8,7 @@
         var breed = $(this).attr("data-name");
        
 
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + breed + "&api_key=qbQytZG4v6Gc1CpCMXHuwJ9e1ewaLdB9&limit=10";
+        var queryURL = "http://quotes.rest/quote/random.json";
 
     
 
