@@ -99,16 +99,31 @@ $("#add-breed").on("click", function (event) {
   event.preventDefault();
   // This line grabs the input from the textbox
   var breed = $("#breed-input").val().trim();
+  
 
   // Adding breed from the textbox to our array
   breeds.push(breed);
 
   // Calling renderButtons which handles the processing of our breed array
   renderButtons();
+  $("#breed-input").val("");
+  
+  
+  
 });
+
 
 // Adding a click event listener to all elements with a class of "breed"
 $(document).on("click", ".breed", displayBreedInfo);
 $(document).on("click", ".giphy", toggleAnimate);
+
+// var input =  $("#breed-input")
+
+// inputClear.on('click', function() { 
+//   input.val(''); 
+// });
+
+
+
 // Calling the renderButtons function to display the intial buttons
 renderButtons();
